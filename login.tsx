@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { auth } from '../lib/firebase';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import Navbar from '../components/Navbar';
+import { auth } from '../lib/firebase'; 
 
 export default function Login() {
   const handleGoogleLogin = async () => {
